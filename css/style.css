@@ -1,1 +1,314 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* nav bar start  */
+nav {
+    background-color: #fff;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 15px;
+    line-height: 22px;
+    
+}
+
+nav a:hover {
+    background-color: rgba(116, 116, 116, 0.521);
+}
+
+nav span {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+/*end navbar   */
+/*start header   */
+header {
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+header img {
+    width: 100%;
+}
+
+header img {
+    display: block;
+}
+
+header h1 {
+    position: absolute;
+    left: 2%;
+    font-size: 36px;
+    line-height: 55px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    bottom: 1%;
+    color: rgba(0, 0, 0, 0.521);
+    font-family: serif;
+    
+}
+
+/*end header  */
+
+/*start main   */
+main {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main hr {
+    margin: 20px 0px;
+    opacity: 0.2;
+}
+
+main section {
+    padding: 64px 0px;
+    display: flex;
+}
+
+main .section-1 .left-section {
+    flex: 50%;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+main .section-1 .left-section::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.438), rgba(0, 0, 0, 0));
+    display: inline-block;
+    left: 0px;
+    
+}
+
+main .section-1 .left-section img {
+    width: 100%;
+}
+
+main .section-1 .right-section {
+    flex: 50%;
+    display: flex;
+    padding: 12px 24px;
+    display: block;
+    justify-content: center;
+}
+
+main .section-1 .right-section h1 {
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    font-family: serif;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 0px;
+    margin: 10px 0px;
+}
+
+main .section-1 .right-section h5 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: serif;
+    text-align: center;
+    margin: 10px 0px;
+    letter-spacing: 3px;
+}
+
+main .section-1 .right-section .p-1 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px 0px;
+
+}
+
+main .section-1 .right-section .p-2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 18px 0px;
+    color: #757575;
+
+}
+
+main .section-2 {
+    flex-direction: row-reverse;
+}
+
+main .section-2 .right-section {
+    display: flex;
+    flex: 50%;
+    padding: 12px 24px;
+    justify-content: flex-start
+}
+
+main .section-2 .right-section img {
+    width: 100%;
+}
+
+main .section-2 .left-section {
+    padding: 12px 24px;
+    flex: 50%;
+}
+
+main .section-2 .left-section h1 {
+    font-size: 36px;
+    font-family: serif;
+    line-height: 54px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0px;
+    margin: 10px 0px;
+}
+
+main .section-2 .left-section h4 {
+    font-family: serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0px;
+    margin: 30px 0px;
+    letter-spacing: 3px;
+}
+
+main .section-2 .left-section p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #757575;
+    margin: 0px;
+    margin: 15px 0px;
+}
+
+.section-3 {
+    flex-direction: column;
+}
+
+.section-3 h2 {
+
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 54px;
+    font-size: 36px;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 25px 0px;
+    letter-spacing: 3px
+}
+
+.p-1,
+.p-3 {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px 0px;
+
+}
+
+.p-2 {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 24px;
+    font-size: 18px;
+    color: #607d8b;
+    font-weight: 700;
+}
+
+form {
+    display: block;
+    margin: 0px;
+    font-weight: bold;
+    width: 100%;
+    margin-right: 55px;
+    padding: 12px 20px;
+}
+
+form input {
+    margin: 7px 0px;
+    padding: 17px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c3c4c5;
+    outline: none;
+}
+form input:hover{
+    border: 1px solid #000000;
+
+}
+.form-btn {
+    width: 20%;
+    padding: 16px 24px;
+    margin: 16px 0px;
+    border: none;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    background-color: #F1F1F1;
+    border-radius: 2px;
+}
+
+.form-btn:hover {
+    background-color: #c3c4c5;
+    border-radius: 1px solid rgb(155, 155, 155);
+}
+
+
+
+/* main end  */
+
+/*start footer*/
+footer {
+
+    background-color: #F1F1F1;
+    color: black;
+    text-align: center;
+    padding: 75px 0px;
+}
+
+footer p a {
+    color: black;
+}
+
+footer p a:hover {
+    color: #4CAF50;
+}
+
+/*end footer*/
+
 new 
